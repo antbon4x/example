@@ -1,9 +1,41 @@
-*.mw filter=lfs diff=lfs merge=lfs -text
-*.bd filter=lfs diff=lfs merge=lfs -text
-*.ibd filter=lfs diff=lfs merge=lfs -text
-interface filter=lfs diff=lfs merge=lfs -text
-*.sm filter=lfs diff=lfs merge=lfs -text
-*.fc filter=lfs diff=lfs merge=lfs -text
-*.am filter=lfs diff=lfs merge=lfs -text
-*.tt filter=lfs diff=lfs merge=lfs -text
-*.sb filter=lfs diff=lfs merge=lfs -text
+*.mw filter=lfs diff=lfs merge=lfs -text lockable
+*.bd filter=lfs diff=lfs merge=lfs -text lockable
+*.ibd filter=lfs diff=lfs merge=lfs -text lockable
+interface filter=lfs diff=lfs merge=lfs -text lockable
+*.sm filter=lfs diff=lfs merge=lfs -text lockable
+*.fc filter=lfs diff=lfs merge=lfs -text lockable
+*.am filter=lfs diff=lfs merge=lfs -text lockable
+*.tt filter=lfs diff=lfs merge=lfs -text lockable
+*.sb filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_defines.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_rxethmac.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_spram_256x32.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_shiftreg.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_txcounters.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_wishbone.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/timescale.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/bench/verilog/tb_eth_behcomp.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_fifo.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_maccontrol.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_txstatem.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/bench/verilog/stimuli/eth_txethmac_stim.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_clockgen.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_rxaddrcheck.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_txethmac.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_miim.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_rxcounters.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_top.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_receivecontrol.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_register.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_transmitcontrol.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_cop.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_crc.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_random.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/vhdl/eth_rxstatem_a_rtl.vhd filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/vhdl/eth_rxstatem_e.vhd filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_outputcontrol.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_registers.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/tb_eth_defines.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/bench/verilog/eth_txethmac_tb.v filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/bench/vhdl/eth_rxstatem_tb.vhd filter=lfs diff=lfs merge=lfs -text lockable
+ethernet/hdl/data/rtl/verilog/eth_macstatus.v filter=lfs diff=lfs merge=lfs -text lockable
